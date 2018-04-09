@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AndroidLiketextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXr-bS-Srz">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySh-kZ-1dh" customClass="OSBTextFieldView" customModule="AndroidLiketextField" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="306" width="291" height="35"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="loT-TN-iZf"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRequired" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="inputType">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="validationMessageForInvalidInput" value="Enter a valid email"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ySh-kZ-1dh" firstAttribute="top" secondItem="XXr-bS-Srz" secondAttribute="top" constant="306" id="7LR-Xs-1EP"/>
+                                    <constraint firstAttribute="trailing" secondItem="ySh-kZ-1dh" secondAttribute="trailing" constant="42" id="DDJ-e4-EhA"/>
+                                    <constraint firstItem="ySh-kZ-1dh" firstAttribute="centerX" secondItem="XXr-bS-Srz" secondAttribute="centerX" id="OEZ-H8-IGM"/>
+                                    <constraint firstAttribute="bottom" secondItem="ySh-kZ-1dh" secondAttribute="bottom" constant="306" id="OWA-lh-WEa"/>
+                                    <constraint firstItem="ySh-kZ-1dh" firstAttribute="centerY" secondItem="XXr-bS-Srz" secondAttribute="centerY" id="aMM-gQ-ENR"/>
+                                    <constraint firstItem="ySh-kZ-1dh" firstAttribute="leading" secondItem="XXr-bS-Srz" secondAttribute="leading" constant="42" id="vRZ-DG-g6x"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XXr-bS-Srz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="EsS-Xw-1K9"/>
+                            <constraint firstItem="XXr-bS-Srz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I85-C5-Lvu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XXr-bS-Srz" secondAttribute="trailing" id="OVT-my-K5f"/>
+                            <constraint firstItem="XXr-bS-Srz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a1H-kl-Kwo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="ySh-kZ-1dh" id="Php-4V-UTf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

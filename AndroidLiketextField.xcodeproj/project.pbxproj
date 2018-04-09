@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79EB5887207B43110011A052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB5886207B43110011A052 /* AppDelegate.swift */; };
+		79EB5889207B43110011A052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB5888207B43110011A052 /* ViewController.swift */; };
+		79EB588C207B43110011A052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EB588A207B43110011A052 /* Main.storyboard */; };
+		79EB588E207B43110011A052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EB588D207B43110011A052 /* Assets.xcassets */; };
+		79EB5891207B43110011A052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EB588F207B43110011A052 /* LaunchScreen.storyboard */; };
+		79EB589C207B43D70011A052 /* OSBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB589B207B43D70011A052 /* OSBTextField.swift */; };
+		79EB589E207B43E20011A052 /* OSBTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB589D207B43E20011A052 /* OSBTextFieldView.swift */; };
+		79EB58A0207B44120011A052 /* OSBTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EB589F207B44120011A052 /* OSBTextFieldView.xib */; };
+		79EB58A4207B44670011A052 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB58A3207B44670011A052 /* AppColor.swift */; };
+		79EB58A6207B44740011A052 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB58A5207B44740011A052 /* AppFont.swift */; };
+		79EB58A8207B44910011A052 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB58A7207B44910011A052 /* AppEnums.swift */; };
+		79EB58AA207B455A0011A052 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB58A9207B455A0011A052 /* UIColor.swift */; };
+		79EB58AC207B4C410011A052 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 79EB58AB207B4C410011A052 /* error.png */; };
+		79EB58AE207B6FBC0011A052 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB58AD207B6FBC0011A052 /* Strings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79EB5883207B43110011A052 /* AndroidLiketextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidLiketextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB5886207B43110011A052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79EB5888207B43110011A052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79EB588B207B43110011A052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79EB588D207B43110011A052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79EB5890207B43110011A052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79EB5892207B43110011A052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EB589B207B43D70011A052 /* OSBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSBTextField.swift; sourceTree = "<group>"; };
+		79EB589D207B43E20011A052 /* OSBTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSBTextFieldView.swift; sourceTree = "<group>"; };
+		79EB589F207B44120011A052 /* OSBTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OSBTextFieldView.xib; sourceTree = "<group>"; };
+		79EB58A3207B44670011A052 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		79EB58A5207B44740011A052 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		79EB58A7207B44910011A052 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		79EB58A9207B455A0011A052 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		79EB58AB207B4C410011A052 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		79EB58AD207B6FBC0011A052 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EB5880207B43110011A052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EB587A207B43110011A052 = {
+			isa = PBXGroup;
+			children = (
+				79EB5885207B43110011A052 /* AndroidLiketextField */,
+				79EB5884207B43110011A052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EB5884207B43110011A052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EB5883207B43110011A052 /* AndroidLiketextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EB5885207B43110011A052 /* AndroidLiketextField */ = {
+			isa = PBXGroup;
+			children = (
+				79EB5898207B43420011A052 /* TextField */,
+				79EB5886207B43110011A052 /* AppDelegate.swift */,
+				79EB5888207B43110011A052 /* ViewController.swift */,
+				79EB588A207B43110011A052 /* Main.storyboard */,
+				79EB588D207B43110011A052 /* Assets.xcassets */,
+				79EB588F207B43110011A052 /* LaunchScreen.storyboard */,
+				79EB5892207B43110011A052 /* Info.plist */,
+			);
+			path = AndroidLiketextField;
+			sourceTree = "<group>";
+		};
+		79EB5898207B43420011A052 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				79EB589B207B43D70011A052 /* OSBTextField.swift */,
+				79EB589D207B43E20011A052 /* OSBTextFieldView.swift */,
+				79EB58AB207B4C410011A052 /* error.png */,
+				79EB589F207B44120011A052 /* OSBTextFieldView.xib */,
+				79EB58A3207B44670011A052 /* AppColor.swift */,
+				79EB58A5207B44740011A052 /* AppFont.swift */,
+				79EB58A7207B44910011A052 /* AppEnums.swift */,
+				79EB58A9207B455A0011A052 /* UIColor.swift */,
+				79EB58AD207B6FBC0011A052 /* Strings.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EB5882207B43110011A052 /* AndroidLiketextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB5895207B43110011A052 /* Build configuration list for PBXNativeTarget "AndroidLiketextField" */;
+			buildPhases = (
+				79EB587F207B43110011A052 /* Sources */,
+				79EB5880207B43110011A052 /* Frameworks */,
+				79EB5881207B43110011A052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidLiketextField;
+			productName = AndroidLiketextField;
+			productReference = 79EB5883207B43110011A052 /* AndroidLiketextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EB587B207B43110011A052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Innofied;
+				TargetAttributes = {
+					79EB5882207B43110011A052 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79EB587E207B43110011A052 /* Build configuration list for PBXProject "AndroidLiketextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79EB587A207B43110011A052;
+			productRefGroup = 79EB5884207B43110011A052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EB5882207B43110011A052 /* AndroidLiketextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EB5881207B43110011A052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EB5891207B43110011A052 /* LaunchScreen.storyboard in Resources */,
+				79EB58AC207B4C410011A052 /* error.png in Resources */,
+				79EB58A0207B44120011A052 /* OSBTextFieldView.xib in Resources */,
+				79EB588E207B43110011A052 /* Assets.xcassets in Resources */,
+				79EB588C207B43110011A052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EB587F207B43110011A052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EB5889207B43110011A052 /* ViewController.swift in Sources */,
+				79EB58AE207B6FBC0011A052 /* Strings.swift in Sources */,
+				79EB58A4207B44670011A052 /* AppColor.swift in Sources */,
+				79EB58A6207B44740011A052 /* AppFont.swift in Sources */,
+				79EB58A8207B44910011A052 /* AppEnums.swift in Sources */,
+				79EB589E207B43E20011A052 /* OSBTextFieldView.swift in Sources */,
+				79EB58AA207B455A0011A052 /* UIColor.swift in Sources */,
+				79EB589C207B43D70011A052 /* OSBTextField.swift in Sources */,
+				79EB5887207B43110011A052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79EB588A207B43110011A052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EB588B207B43110011A052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79EB588F207B43110011A052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EB5890207B43110011A052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79EB5893207B43110011A052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79EB5894207B43110011A052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EB5896207B43110011A052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndroidLiketextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innofied.AndroidLiketextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79EB5897207B43110011A052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndroidLiketextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innofied.AndroidLiketextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EB587E207B43110011A052 /* Build configuration list for PBXProject "AndroidLiketextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB5893207B43110011A052 /* Debug */,
+				79EB5894207B43110011A052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB5895207B43110011A052 /* Build configuration list for PBXNativeTarget "AndroidLiketextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB5896207B43110011A052 /* Debug */,
+				79EB5897207B43110011A052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79EB587B207B43110011A052 /* Project object */;
+}
